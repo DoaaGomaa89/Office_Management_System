@@ -1,0 +1,10 @@
+# docker-compose.office_mgmt.yml
+services:
+  web:
+    build: ./office_emp_proj
+    container_name: office_mgmt_app
+    command: python manage.py runserver 0.0.0.0:8000
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./office_emp_proj:/app
