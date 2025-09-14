@@ -38,7 +38,3 @@ The Office Employees Management System (OEMS) is a powerful and efficient intern
 
         Backend: Django ORM, QuerySet
 
----
-
-👨‍💻 Author
-Sourabh Yadav
